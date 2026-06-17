@@ -55,6 +55,8 @@ p{
   justify-content:space-between;
   align-items: center;
   row-gap: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 #main-content>div>img{
   width:100%;

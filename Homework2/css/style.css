@@ -42,6 +42,10 @@ a{
   color:rgb(91, 39, 7);
   font-weight:bold;
 }
+.active-link{
+  text-decoration: none;
+  opacity:.85;
+}
 main{
   background-color:wheat;
   font-size: 120%;

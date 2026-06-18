@@ -84,9 +84,5 @@ footer{
     background-position:center;
     background-size: cover;
     padding: 2%;
-    opacity: .8;
-    text-shadow: rgba(0,0,0,0.9) 0px 0px 5px;
-    color: white;
-    text-align: right;
-    align-content: end;
+    opacity: .7;
 }

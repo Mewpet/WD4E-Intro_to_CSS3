@@ -64,13 +64,18 @@ p{
     border-radius: 10%;
     padding: 1%;
     transition: border-radius 0.5s, box-shadow 0.3s, transform 0.3s, padding 0.3s;
-    
 }
 .image-grid img:hover{
     padding:0px;
     border-radius: 2%;
     box-shadow: rgba(150, 150, 150, 0.7) 0px 5px 10px;
     transform:scale(1.05, 1.05);
+}
+.image-grid :nth-child(odd){
+    transform:rotatez(1deg);
+}
+.image-grid :nth-child(even){
+    transform: rotatez(-1deg);
 }
 footer{
     margin-top:25px;

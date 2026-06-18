@@ -14,8 +14,19 @@ nav a{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 4vw;
     text-decoration: none;
+    text-shadow:none;
+    transition:text-shadow .2s linear;
+}
+nav a:hover{
+    text-shadow: rgba(105, 200, 215, 0.3) 0px 3px 15px;
+}
+.current-page{
+    opacity:.75;
 }
 a{
+    color: var(--contrast-colour);
+}
+h1{
     color: var(--contrast-colour);
 }
 p{

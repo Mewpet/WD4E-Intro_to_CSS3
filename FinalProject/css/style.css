@@ -32,7 +32,8 @@ h1{
     color: var(--contrast-colour);
 }
 p{
-    color:var(--main-colour)
+    color:var(--main-colour);
+    font-size: min(3vw, 20px);
 }
 .image-grid{
     display: grid;
@@ -55,6 +56,7 @@ p{
     box-shadow: rgba(100,100,100,0.7) 0px 5px 10px;
 }
 footer{
+    margin-top:25px;
     height:200px;
     background-image: url(../images/Mountains_mountains.jpg);
     background-position:center;

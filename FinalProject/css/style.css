@@ -62,9 +62,12 @@ p{
     max-height: 400px;
     object-fit: cover;
     border-radius: 10%;
-    transition: border-radius 0.5s, box-shadow 0.3s, transform 0.3s;
+    padding: 1%;
+    transition: border-radius 0.5s, box-shadow 0.3s, transform 0.3s, padding 0.3s;
+    
 }
 .image-grid img:hover{
+    padding:0px;
     border-radius: 2%;
     box-shadow: rgba(150, 150, 150, 0.7) 0px 5px 10px;
     transform:scale(1.05, 1.05);
